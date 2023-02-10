@@ -23,7 +23,7 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 - Acceptance Criteria:
     - I should be able to get the `custom_id` for an agent at a facility by querying the Custom Id junction table.
-    - The Custom ID Table must have a custom id field that is required and should be a string, possibly a varchar(60)
+    - The Custom ID Table must have a `custom_id` field that is required and should be a string, possibly a varchar(60)
 
 - Estimate Effort: 4h
 
@@ -50,7 +50,7 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 - Estimate Effort: 10h
 
-## Ticket 4: Update getShiftsByFacility method to support custom_id in the agent metadata.
+## Ticket 4: Update generateReport method to support custom_id in the agent metadata.
 
 - Description: Update the current `generateReport` to show the custom_id, if it's not null, instead of showing the internal agent id.
 - Add unit tests
